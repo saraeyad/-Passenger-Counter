@@ -1,7 +1,6 @@
 body {
   font-family: "Ancizar Serif", serif;
   background: radial-gradient(circle, #0f2027, #203a43, #315463);
-  /* background: #b5d8f3; */
   display: flex;
   justify-content: center;
   align-items: center;

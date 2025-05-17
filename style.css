@@ -1,6 +1,7 @@
 body {
   font-family: "Ancizar Serif", serif;
-  background: #f0f8ff;
+  background: radial-gradient(circle, #0f2027, #203a43, #315463);
+  /* background: #b5d8f3; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,4 +27,19 @@ button {
 
 button:hover {
   background: #dcdcdc;
+}
+@media (max-width: 480px) {
+  .container {
+    width: 95%;
+    padding: 1.5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  .btn {
+    padding: 0.8rem 1.5rem;
+    width: 80%;
+  }
 }
